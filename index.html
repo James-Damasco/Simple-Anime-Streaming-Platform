@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/css/swiper-bundle.min.css"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <title>AnimeWatch - Home</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>AnimeWatch</h1>
+            <input type="text" id="searchInput" placeholder="Search anime..."/>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="swiper heroSwiper">
+            <div class="swiper-wrapper" id="heroSlider"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="anime-section">
+        <h2>Trending Anime</h2>
+        <div class="anime-grid" id="trendingAnime"></div>
+    </section>
+    <section class="anime-section">
+        <h2>Popular Anime</h2>
+        <div class="anime-grid" id="popularAnime"></div>
+    </section>
+    <section class="anime-section">
+        <h2>Latest Episodes</h2>
+        <div class="anime-grid" id="latestEpisodes"></div>
+    </section>
+
+    <script src="lib/js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
