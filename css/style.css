@@ -1,0 +1,45 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #121212;
+  margin: 0;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: rgb(5.25, 5.25, 5.25);
+}
+
+.anime-section {
+  padding: 2rem;
+}
+.anime-section h2 {
+  margin-bottom: 1rem;
+}
+.anime-section .anime-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.anime-card {
+  background: rgb(30.75, 30.75, 30.75);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.anime-card:hover {
+  transform: scale(1.05);
+}
+.anime-card img {
+  width: 100%;
+  display: block;
+}
+.anime-card .title {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/*# sourceMappingURL=style.css.map */
