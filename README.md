@@ -64,4 +64,50 @@ A fully responsive **Anime Watch Website** built with **HTML5, CSS3, SCSS, and J
    - [Consumet API](https"//docs.consumet.org/) - Streaming Links
    - [Jikan API](https://jikan.moe/) - Anime metadata
 ---
+## 📤 Example API Request
+- **Trending Anime (Jikan API):**
+- **Anime Details (Consumet Anilist API):**
+- **Episode Streaming Links (Consumet AnimeUnity API):**
+---
 
+## ⚙️ Running Locally
+1. **Clone the Repository**
+   ```
+   bash
+   git clone https://github.com/James-Damasco/Simple-Anime-Streaming-Platform.git
+   cd Simple-Anime-Streaming-Platform
+   ```
+2. **Install SCSS Compiler (If not installed)**
+  ```
+npm install -g sass
+```
+3. **Compile SCSS to CSS**
+   ```
+   sass scss/style.scss css/style.css
+   ```
+4. **Run locally
+   - Open index.html) in your browser, or
+   - Use a local server (recommended):
+     ```
+     npx serve .
+     ```
+     Then visit http://localhost:3000
+
+---
+
+## 📌 Notes
+- Jikan Api provides **metadata only** (titles, posters, symbols)
+- Consumet API provides **episode streaming links.**
+- Ensure CORS is enabled when fetching API's locally (use a dev server).
+- Replace placeholder *episodeId* with real IDs from the API response.
+
+## 🛠️ Future Improvements
+* Add user authentication
+* Implement favorites list with persistent storage
+* Advance filtering (year, rating, status)
+* Multi-server streaming options
+
+## 📜 License
+**Apache License 2.0**
+
+---
